@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 1025560797}
   - component: {fileID: 1025560798}
   - component: {fileID: 1025560799}
+  - component: {fileID: 1025560800}
   m_Layer: 0
   m_Name: Rey
   m_TagString: Untagged
@@ -356,7 +357,20 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1025560800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025560794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63af6df6ad62cac4eb3ccbdb1d1ceb62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuerzaSalto: 250
 --- !u!1 &1862756190
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +400,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4314994435c4bb3408b1991f7cd5a3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  col: {fileID: 3832032928228815962, guid: 0c899e16e5c9ec74194caa8a1f862b5a, type: 3}
   fondo: {fileID: 2117535558}
+  velocidad: 0
+  cols: []
 --- !u!4 &1862756192
 Transform:
   m_ObjectHideFlags: 0
